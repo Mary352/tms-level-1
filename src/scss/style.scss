@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700;900&display=swap');
+
+@import "./section/null-style.scss";
+@import "./section/header.scss";
+@import "./section/main-banner.scss";
+@import "./section/download.scss";
+
+.container{
+   max-width: 1200px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.h1-title{
+   font-weight: 900;
+   font-size: 64px;
+   line-height: 75px;
+}
+
+.h2-text{
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 42px;
+}
+
+.h3-title{
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 35px;
+   text-align: center;
+}
+
+
+.h4-title{
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 28px;
+}
+
+.regular-text{
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+
+   &--bold{
+      font-weight: 500;
+   }
+}
+
+.small-text{
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 15px;
+}
+
+.button{
+   background-color: #FF4343;
+   margin: 0 auto;
+   width: 370px;
+   height: 80px;
+   text-align: center;
+   color: #fff;
+   padding: 25px 0;
+
+   &:hover{
+      background-color: #E71414;
+   }
+
+   &:active{
+      background-color: #FF4343;
+      box-shadow: 4px 4px 30px #FF4343;
+   }
+}
