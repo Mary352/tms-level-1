@@ -1,0 +1,22 @@
+.header{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: transparent;
+   z-index: 5;
+}
+
+.header__nav{
+   
+   .nav__list{
+
+      .list-link--wrapper{
+
+         .list-link{
+            text-transform: uppercase;
+            color: #fff;
+         }
+      }
+   }
+}

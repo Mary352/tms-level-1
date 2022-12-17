@@ -9,12 +9,16 @@
    max-width: 1200px;
    padding: 0 15px;
    margin: 0 auto;
+   position: relative;
+   z-index: 1;
 }
 
 .h1-title{
    font-weight: 900;
    font-size: 64px;
    line-height: 75px;
+   color: #fff;
+   text-align: center;
 }
 
 .h2-text{
@@ -61,6 +65,7 @@
    text-align: center;
    color: #fff;
    padding: 25px 0;
+   text-transform: uppercase;
 
    &:hover{
       background-color: #E71414;
