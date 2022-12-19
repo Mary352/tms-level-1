@@ -3,6 +3,7 @@
 @import "./section/null-style.scss";
 @import "./section/header.scss";
 @import "./section/main-banner.scss";
+@import "./section/features.scss";
 @import "./section/download.scss";
 
 .container{
@@ -39,6 +40,7 @@
    font-weight: 900;
    font-size: 24px;
    line-height: 28px;
+   text-align: center;
 }
 
 .regular-text{

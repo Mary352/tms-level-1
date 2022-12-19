@@ -28,9 +28,66 @@ a {
   left: 0;
 }
 
+.header__container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.header__logo--wrapper {
+  padding: 35px 0;
+}
+
+.header__nav .nav__list {
+  margin: 0 -40px;
+  display: flex;
+}
+
+.header__nav .nav__list .list-link--wrapper {
+  margin: 0 40px;
+}
+
 .header__nav .nav__list .list-link--wrapper .list-link {
   text-transform: uppercase;
   color: #fff;
+  padding: 40px 0;
+  position: relative;
+}
+
+.header__nav .nav__list .list-link--wrapper .list-link:active {
+  color: #e71414;
+}
+
+.header__nav:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #babbc5;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.list-link:hover.list-link:after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #babbc5;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.list-link:active.list-link:after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #e71414;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .main-banner {
@@ -60,13 +117,43 @@ a {
   left: 0;
 }
 
+.features {
+  padding-top: 115px;
+  padding-bottom: 135px;
+}
+
+.features__descr-list {
+  flex-wrap: wrap;
+  margin: -45px -15px;
+  display: flex;
+}
+
+.features__descr-list .descr-list__item {
+  width: calc(33.3333% - 30px);
+  margin: 45px 15px;
+}
+
+.features__descr-list .descr-list__item .features__icon--wrapper {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 65px;
+  display: flex;
+}
+
+.features__descr-list .descr-list__item .h4-title {
+  text-transform: uppercase;
+  margin-bottom: 55px;
+}
+
 .download {
   padding-top: 115px;
   padding-bottom: 115px;
 }
 
 .download .regular-text {
+  text-transform: uppercase;
   margin-bottom: 50px;
+  font-weight: 700;
 }
 
 .download__title {
@@ -106,6 +193,7 @@ a {
 }
 
 .h4-title {
+  text-align: center;
   font-size: 24px;
   font-weight: 900;
   line-height: 28px;
