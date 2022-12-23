@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500:600;700;900&display=swap');
 
+@import "./variables/variables.scss";
 @import "./section/null-style.scss";
 @import "./section/header.scss";
 @import "./section/main-banner.scss";
 @import "./section/features.scss";
+@import "./section/work.scss";
+@import "./section/our-team.scss";
 @import "./section/download.scss";
+@import "./section/footer.scss";
 
 .container{
    max-width: 1200px;
@@ -18,7 +22,7 @@
    font-weight: 900;
    font-size: 64px;
    line-height: 75px;
-   color: #fff;
+   color: $white;
    text-align: center;
 }
 
@@ -51,6 +55,15 @@
    &--bold{
       font-weight: 500;
    }
+
+   &--red-color{
+      color: $red;
+      text-transform: uppercase;
+   }
+
+   &--gray-color{
+      color: $gray;
+   }
 }
 
 .small-text{
@@ -60,21 +73,21 @@
 }
 
 .button{
-   background-color: #FF4343;
+   background-color: $red;
    margin: 0 auto;
    width: 370px;
    height: 80px;
    text-align: center;
-   color: #fff;
+   color: $white;
    padding: 25px 0;
    text-transform: uppercase;
 
    &:hover{
-      background-color: #E71414;
+      background-color: $highlight-color;
    }
 
    &:active{
-      background-color: #FF4343;
-      box-shadow: 4px 4px 30px #FF4343;
+      background-color: $red;
+      box-shadow: 4px 4px 30px $red;
    }
 }

@@ -1,0 +1,51 @@
+.our-team{
+   padding: 115px 0;
+
+   &__person-cards{
+      margin: 0 -15px;
+      display: flex;
+
+      .person-card{
+         width: calc(100% / 4 - 30px);
+         margin: 0 15px;
+
+         &__photo--wrapper{
+            margin-bottom: 40px;
+
+            img{
+               object-fit: cover;
+            }
+         }
+
+         .h4-title{
+            font-weight: 700;
+            text-align: left;
+            margin-bottom: 15px;
+         }
+
+         // .regular-text{
+         //    text-align: left;
+         // }
+
+         .regular-text{
+            text-align: left;
+
+            &--red-color{
+               margin-bottom: 30px;
+            }
+         }
+         &__all-icons--wrapper{
+            margin: 40px -3px 0;
+            display: flex;
+
+            .person-card__icon--wrapper{
+               width: 39px;
+               height: 39px;
+               border: 1px solid $gray-icon;
+               margin: 0 3px;
+            }
+         }
+
+      }
+   }
+}
