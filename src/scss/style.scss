@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500:600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500:600;700;900&display=swap');
 
 @import "./variables/variables.scss";
 @import "./section/null-style.scss";
@@ -7,6 +7,7 @@
 @import "./section/features.scss";
 @import "./section/work.scss";
 @import "./section/our-team.scss";
+@import "./section/testimonials.scss";
 @import "./section/download.scss";
 @import "./section/footer.scss";
 
@@ -27,9 +28,13 @@
 }
 
 .h2-text{
-   font-weight: 700;
+   font-family: 'Cardo';
+   font-style: italic;
    font-size: 36px;
-   line-height: 42px;
+   line-height: 49px;
+   // font-weight: 700;
+   // font-size: 36px;
+   // line-height: 42px;
 }
 
 .h3-title{

@@ -1,1 +1,1 @@
-{"mappings":"","sources":["src/js/script.js"],"sourcesContent":[null],"names":[],"version":3,"file":"index.09c24910.js.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAAA,EAAE,UAAU,KAAK,CAAC,WAAW;IAC1B,EAAE,yBAAyB,KAAK;AACnC","sources":["src/js/script.js"],"sourcesContent":["$(document).ready(function() {\r\n   $('.testimonials__slider').slick();\r\n});"],"names":[],"version":3,"file":"index.09c24910.js.map","sourceRoot":"/__parcel_source_root/"}

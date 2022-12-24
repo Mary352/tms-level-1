@@ -46,5 +46,11 @@
          opacity: 1;
          z-index: 1;
       }
+
+      .works-gallery__example:active .example__descr{
+         opacity: 1;
+         z-index: 1;
+         background: rgba(185, 12, 12, 0.8);
+      }
    }
 }
